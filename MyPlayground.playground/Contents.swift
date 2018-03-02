@@ -75,6 +75,20 @@ func ImprimeAviso(){
 
 ImprimeAviso()
 
+//Quadrado de um numero inteiro
+func ImprimeValorQuad(numeroInteiro : Int){
+    print(numeroInteiro * numeroInteiro)
+}
+
+ImprimeValorQuad(numeroInteiro: 4)
+ImprimeValorQuad(numeroInteiro: 5)
+
+func CalculeImprimeIMC(altura : Double, peso : Double){
+    var imc = peso / (altura*altura)
+    print("IMC = \(imc)")
+}
+
+
 
 
 
