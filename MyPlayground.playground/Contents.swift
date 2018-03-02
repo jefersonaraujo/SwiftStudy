@@ -88,7 +88,24 @@ func CalculeImprimeIMC(altura : Double, peso : Double){
     print("IMC = \(imc)")
 }
 
+func EstaComPesoSaudavel(altura : Double, peso : Double) -> Bool{
+    var imc = peso / (altura * altura)
+    if imc > 18.5 && imc < 25.0{
+        return true
+    }else{
+        return false
+    }
+}
+
+func CalculaIMCVerificaPesoSauldavel(altura : Double, peso : Double) -> (imc: Double, pesoSaudavel: Bool){
+    var imc = peso / (altura * altura)
+}
 
 
 
+func coverta(moeda : Double){
+    //let dolar = 3.5
+    print(moeda)
+}
+coverta(moeda: 5)
 
