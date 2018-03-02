@@ -69,7 +69,11 @@ arrayDeInteiros.remove(at: 0)
 arrayDeInteiros
 
 
+func ImprimeAviso(){
+    print("Isto  e um aviso")
+}
 
+ImprimeAviso()
 
 
 
