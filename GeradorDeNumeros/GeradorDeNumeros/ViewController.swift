@@ -23,12 +23,13 @@ class ViewController: UIViewController {
     }
     
         @IBOutlet weak var textoResultado: UILabel!
-        @IBAction func gerarNumero(sender: AnyObject){
+
+    
+
+    @IBAction func gerarNumero(_ sender: Any) {
         let numeroAleatorio = arc4random_uniform(11)
         textoResultado.text = String(numeroAleatorio)
     }
-    
-
 
 }
 
