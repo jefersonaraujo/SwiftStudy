@@ -12,6 +12,7 @@
 		814F5DBF205C858D00B8F964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814F5DBD205C858D00B8F964 /* Main.storyboard */; };
 		814F5DC1205C858D00B8F964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814F5DC0205C858D00B8F964 /* Assets.xcassets */; };
 		814F5DC4205C858D00B8F964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814F5DC2205C858D00B8F964 /* LaunchScreen.storyboard */; };
+		814F5DCD205C879400B8F964 /* imagem.png in Resources */ = {isa = PBXBuildFile; fileRef = 814F5DCB205C879400B8F964 /* imagem.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		814F5DC0205C858D00B8F964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		814F5DC3205C858D00B8F964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		814F5DC5205C858D00B8F964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814F5DCC205C879400B8F964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/imagem.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		814F5DB8205C858D00B8F964 /* GeradorDeNumeros */ = {
 			isa = PBXGroup;
 			children = (
+				814F5DCB205C879400B8F964 /* imagem.png */,
 				814F5DB9205C858D00B8F964 /* AppDelegate.swift */,
 				814F5DBB205C858D00B8F964 /* ViewController.swift */,
 				814F5DBD205C858D00B8F964 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				814F5DC4205C858D00B8F964 /* LaunchScreen.storyboard in Resources */,
+				814F5DCD205C879400B8F964 /* imagem.png in Resources */,
 				814F5DC1205C858D00B8F964 /* Assets.xcassets in Resources */,
 				814F5DBF205C858D00B8F964 /* Main.storyboard in Resources */,
 			);
@@ -158,6 +162,14 @@
 				814F5DC3205C858D00B8F964 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		814F5DCB205C879400B8F964 /* imagem.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814F5DCC205C879400B8F964 /* Base */,
+			);
+			name = imagem.png;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
