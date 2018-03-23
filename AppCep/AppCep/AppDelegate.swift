@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  AppCep
+//  GeradorDeNumeros
 //
-//  Created by IOS on 23/03/18.
+//  Created by IOS on 16/03/18.
 //  Copyright © 2018 IneedSolutions. All rights reserved.
 //
 
