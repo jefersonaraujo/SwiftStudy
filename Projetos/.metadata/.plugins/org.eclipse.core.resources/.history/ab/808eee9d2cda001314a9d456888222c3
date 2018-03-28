@@ -1,0 +1,9 @@
+package br.edu.fa7.engenharia;
+
+public class Tadutor {
+
+	public Tadutor() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

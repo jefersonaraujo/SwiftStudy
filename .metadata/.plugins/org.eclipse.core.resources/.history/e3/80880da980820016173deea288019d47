@@ -1,0 +1,22 @@
+package br.edu.fa7.tarefas;
+
+
+abstract class Transporte {
+	abstract int getNumeroDePneus();
+	void deslocar(double distancia) {
+		
+	}
+}
+
+class Carro extends Transporte {
+	int getNumeroDePneus(){ return 4; }
+}
+
+class Cliente{
+	public static void main(String args[]){
+		Carro c = new Carro();
+		System.out.println(c.getNumeroDePneus());
+		//Transporte v = new Transporte(); nao compila
+		Transporte c2 = new Carro(); 		
+	}
+}

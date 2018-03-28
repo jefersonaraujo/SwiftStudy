@@ -1,0 +1,29 @@
+package br.edu.fa7.tarefas;
+
+public class TesteEstudante {
+	public static void main(String args[]){
+		Estudante e = new Estudante();
+		e.matricula=2004001;
+		e.nome="Maria Silva";
+		e.sexo='F';
+		e.atribuirNota(1, 7.0);
+		e.atribuirNota(2, 8.2);
+		e.atribuirNota(3, 6.0);
+		e.atribuirNota(4, 5.5);
+		e.exibir();
+		
+		Estudante e1 = new Estudante();
+		Estudante e2 = new Estudante("Fulano",'M');
+		Estudante e3 = new Estudante("Cicrano",'F',001);
+		
+		e1.atribuirNota(1,7.0);
+		e2.atribuirNota(2,5.0);
+		e3.atribuirNota(3);
+		
+		e1.atribuirNota(4, 8.5);
+		
+		e1.exibir();
+		e2.exibir("dados do estudante");
+		e3.exibir("dados do estudante 3");
+	}
+}

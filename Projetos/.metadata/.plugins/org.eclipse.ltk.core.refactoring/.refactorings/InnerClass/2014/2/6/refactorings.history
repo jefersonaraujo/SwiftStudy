@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.innerclass.main&apos; to &apos;com.innerclass&apos;&#x0A;- Original project: &apos;InnerClass&apos;&#x0A;- Original element: &apos;InnerClass/src/com.innerclass.main&apos;&#x0A;- Renamed element: &apos;InnerClass/src/com.innerclass&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.innerclass.main&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.innerclass.main" name="com.innerclass" qualified="false" references="true" stamp="1391814393743" textual="false" version="1.0"/>
+</session>

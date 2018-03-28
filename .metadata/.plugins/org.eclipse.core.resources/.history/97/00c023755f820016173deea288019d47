@@ -1,0 +1,25 @@
+package br.edu.fa7.tarefas;
+
+public class TesteEstudante {
+	public static void main(String args[]){
+		Estudante e = new Estudante();
+		e.matricula=2004001;
+		e.nome="Maria Silva";
+		e.sexo='F';
+		e.atribuirNota(1, 7.0);
+		e.atribuirNota(2, 8.2);
+		e.atribuirNota(3, 6.0);
+		e.atribuirNota(4, 5.5);
+		e.exibir();
+		
+		double nota1 = e.lerNota(1);
+		double nota2 = e.lerNota(2);
+		double nota3 = e.lerNota(3);
+		double nota4 = e.lerNota(4);
+		
+		System.out.println("nota1 = "+nota1);
+		System.out.println("nota2 = "+nota2);
+		System.out.println("nota3 = "+nota3);
+		System.out.println("nota4 = "+nota4);
+	}
+}

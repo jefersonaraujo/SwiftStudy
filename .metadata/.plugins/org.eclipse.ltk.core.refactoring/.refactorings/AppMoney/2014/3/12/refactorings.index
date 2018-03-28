@@ -1,0 +1,21 @@
+1395440319210	Extract local variable 'handler'
+1395441317375	Extract method 'configHandler'
+1395443319884	Delete element
+1395443957967	Change Layout
+1395444268776	Rename field 'textView2'
+1395444274909	Rename field 'textView1'
+1395444282495	Rename field 'imageButton2'
+1395444288092	Rename field 'imageButton1'
+1395444806831	Extract local variable 'conta'
+1395446829823	Extract local variable 'contasAdapter'
+1395448191762	Rename local variable 'v'
+1395448322677	Rename type 'ADDActivity'
+1395448483759	Rename field 'editText1'
+1395448490507	Rename field 'radioButton1'
+1395448499359	Rename field 'radioButton2'
+1395448506655	Rename field 'button1'
+1395448545852	Extract method 'popularAdapter'
+1395448848512	Delete element
+1395449178947	Rename field 'ADD_CONTA'
+1395449634055	Extract local variable 'extras'
+1395450523534	Rename field 'textView1'

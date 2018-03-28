@@ -1,0 +1,11 @@
+package br.edu.fa7.tarefas;
+
+public class Coordenador extends Professor {
+	String cargo;
+	void criarTurmas(){
+		System.out.println("criando turmas");
+	}
+	void recebeSalario(){
+		System.out.println("recebendo o justo e uma hilux");
+	}	
+}

@@ -1,0 +1,23 @@
+package br.edu.fa7.tarefas;
+
+import java.lang.reflect.*;
+
+public class TesteFuncionarios {
+
+	public static void main(String[] args) {
+		Funcionario f = new Funcionario();
+		f.recebeSalario();
+		System.out.println(f.getClass().getName());
+		
+		f = new Professor();
+		f.recebeSalario();
+		System.out.println(f.getClass().getName());
+		
+		f = new Contador();
+		//f.contabilidade();
+		f.recebeSalario();
+		System.out.println(f.getClass().getName());
+		
+	}
+
+}

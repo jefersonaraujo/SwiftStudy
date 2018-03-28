@@ -1,0 +1,7 @@
+package br.edu.fa7.tarefas;
+
+public abstract class Aparelho {
+	abstract void ligar(){};
+	abstract void desligar(){};
+	
+}

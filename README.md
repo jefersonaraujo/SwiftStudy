@@ -1,3 +1,2 @@
-# SwiftStudy
-
-Repositorio para os codigos de estudo sobre a plataforma Swift da IOs. 
+# Workshop2-App-ML-UNI7
+Workshop Aplicações Modernas de Machine Learning - UNI7- Turma 2

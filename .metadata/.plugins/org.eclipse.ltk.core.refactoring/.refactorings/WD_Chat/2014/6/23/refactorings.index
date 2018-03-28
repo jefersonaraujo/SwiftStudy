@@ -1,0 +1,38 @@
+1402095127724	Move compilation units
+1402095307803	Rename type 'Pessoa'
+1402095415173	Rename local variable 'arg0'
+1402095927095	Rename field 'textView1'
+1402096247265	Extract local variable 'contato'
+1402096345353	Rename type 'CanTalkWifiDirectMgr'
+1402096833846	Change Layout
+1402096889036	Rename field 'listView1'
+1402096901662	Rename field 'listView1'
+1402100910589	Move compilation unit
+1402100969874	Change Layout
+1402101143892	Rename field 'editText1'
+1402101150091	Rename field 'imageButton1'
+1402101172139	Rename field 'etSend'
+1402101865530	Extract local variable 'contato'
+1402102140169	Rename field 'Nome'
+1402102145775	Rename field 'WD_Name'
+1402102149589	Rename field 'wd_Name'
+1402102746242	Delete element
+1402102768233	Rename type 'AdapterContatos'
+1402103088770	Extract local variable 'contatosMgr'
+1402142710427	Rename local variable 'contato'
+1402143008738	Rename field 'DEST_ID'
+1402143017889	Rename field 'MEU_ID'
+1402143635113	Rename field 'contatos'
+1402143689383	Rename local variable 'contato'
+1402143955283	Extract local variable 'msg'
+1402147136093	Extract local variable 'client'
+1402147497150	Extract local variable 'is'
+1402147533766	Extract local variable 'outputStream'
+1402148726901	Extract local variable 'is'
+1402149507252	Extract local variable 'address'
+1402157576846	Rename field 'dono'
+1402159059296	Copy compilation units
+1402161751092	Delete element
+1402161771631	Delete element
+1402166426345	Extract local variable 'msg2'
+1402169267998	Extract local variable 'address'

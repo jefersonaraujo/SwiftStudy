@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AddActivity" >
+
+    <TextView
+        android:id="@+id/tvSaldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor" />
+
+    <EditText
+        android:id="@+id/etValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvSaldo"
+        android:layout_below="@+id/tvSaldo"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <RadioButton
+        android:id="@+id/rbDespesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etValor"
+        android:layout_below="@+id/etValor"
+        android:layout_marginTop="34dp"
+        android:text="Despesa" />
+
+    <RadioButton
+        android:id="@+id/rbReceita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rbDespesa"
+        android:layout_alignBottom="@+id/rbDespesa"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="23dp"
+        android:text="Receita" />
+
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/rbReceita"
+        android:layout_below="@+id/rbReceita"
+        android:layout_marginTop="28dp"
+        android:text="Adicionar"
+        android:drawableLeft="@android:drawable/ic_input_add" />
+
+</RelativeLayout>
