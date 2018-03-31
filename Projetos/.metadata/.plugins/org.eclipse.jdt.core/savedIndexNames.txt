@@ -1,3 +1,0 @@
-INDEX VERSION 1.126+/Users/fa7labs/Documents/workspace/Projetos/.metadata/.plugins/org.eclipse.jdt.core
-1051639360.index
-2110604292.index
