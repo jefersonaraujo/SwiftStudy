@@ -12,6 +12,7 @@
 		8118C20620782F9100A3B757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8118C20420782F9100A3B757 /* Main.storyboard */; };
 		8118C20820782F9100A3B757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8118C20720782F9100A3B757 /* Assets.xcassets */; };
 		8118C20B20782F9100A3B757 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8118C20920782F9100A3B757 /* LaunchScreen.storyboard */; };
+		8118C213207831B000A3B757 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8118C212207831B000A3B757 /* QuizModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8118C20720782F9100A3B757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8118C20A20782F9100A3B757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8118C20C20782F9100A3B757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8118C212207831B000A3B757 /* QuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		8118C1F420782F9100A3B757 = {
 			isa = PBXGroup;
 			children = (
+				8118C212207831B000A3B757 /* QuizModel.swift */,
 				8118C1FF20782F9100A3B757 /* Quiz */,
 				8118C1FE20782F9100A3B757 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8118C20320782F9100A3B757 /* ViewController.swift in Sources */,
+				8118C213207831B000A3B757 /* QuizModel.swift in Sources */,
 				8118C20120782F9100A3B757 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +305,7 @@
 				8118C21120782F9100A3B757 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
