@@ -56,7 +56,13 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="btAnswer" destination="XV1-7i-4cw" id="SAA-aD-zUd"/>
+                        <outlet property="btAnswer1" destination="Y0Z-pu-LqJ" id="IQ9-Xh-hlK"/>
+                        <outlet property="btAnswer3" destination="GrS-WG-xAJ" id="eG1-Rx-NeE"/>
+                        <outlet property="btAnswer4" destination="30l-dR-ar4" id="hwN-kP-dTg"/>
+                        <outlet property="imgQuestion" destination="Oua-OY-EfF" id="QN8-gg-QuL"/>
                         <outlet property="label" destination="CwX-C5-Na4" id="YNu-Ys-oQL"/>
+                        <outlet property="lbQuestion" destination="CwX-C5-Na4" id="qcE-Ao-6eE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

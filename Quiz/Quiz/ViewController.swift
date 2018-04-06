@@ -27,12 +27,26 @@ class ViewController: UIViewController {
         
         let q0 = Question(question:"Quantos anos vive um elefante africano?", strImageFileName:"Elefante", answers:[q0a1,q0a2,q0a3,q0a4])
         question = [q0]
-        //ShowQuestion(0)
+        ShowQuestion(qid:0)
+        
+        
+    }
+    @IBOutlet weak var imgQuestion: UIImageView!
+    @IBOutlet weak var lbQuestion: UILabel!
+    @IBOutlet weak var btAnswer1: UIButton!
+    @IBOutlet weak var btAnswer2: UIButton!
+    @IBOutlet weak var btAnswer3: UIButton!
+    @IBOutlet weak var btAnswer4: UIButton!
+    
+    func ShowQuestion(qid : Int){
+        lbQuestion.text = question[qid].strQuestion
+        imgQuestion.image = question[qid].imgQuestion
+        btAnswer1.setTitle(question[qid].answers[0].strAnswer,for: .normal)
+        btAnswer2.setTitle(question[qid].answers[1].strAnswer,for: .normal)
+        btAnswer3.setTitle(question[qid].answers[2].strAnswer,for: .normal)
+        btAnswer4.setTitle(question[qid].answers[3].strAnswer,for: .normal)
         
     }
     
-
-    
-
 }
 

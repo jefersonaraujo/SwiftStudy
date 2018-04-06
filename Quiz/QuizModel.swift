@@ -34,4 +34,5 @@ class Answer {
         self.strAnswer = answer
         self.isCorrect = isCorrect
     }
+    
 }
