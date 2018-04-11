@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:Quiz/Quiz.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Quiz/abertura.png">
+   </FileRef>
+   <FileRef
+      location = "group:Quiz/bebendo.png">
+   </FileRef>
+   <FileRef
+      location = "group:Quiz/Coltrane.png">
+   </FileRef>
+   <FileRef
+      location = "group:Quiz/criador.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:Quiz/halloween.png">
+   </FileRef>
+   <FileRef
+      location = "group:Quiz/homer-doh.png">
+   </FileRef>
+   <FileRef
+      location = "group:Quiz/maggie.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:Quiz/pai-homer.gif">
+   </FileRef>
+   <FileRef
+      location = "group:Quiz/personagens.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:Quiz/simps.jpg">
+   </FileRef>
+</Workspace>

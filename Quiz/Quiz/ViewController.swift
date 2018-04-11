@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         btAnswer1.setTitle(question[qid].answers[0].strAnswer,for: .normal)
         btAnswer2.setTitle(question[qid].answers[1].strAnswer,for: .normal)
         btAnswer3.setTitle(question[qid].answers[2].strAnswer,for: .normal)
-        //btAnswer4.setTitle(question[qid].answers[3].strAnswer,for: .normal)
+        btAnswer4.setTitle(question[qid].answers[3].strAnswer,for: .normal)
         
     }
     
