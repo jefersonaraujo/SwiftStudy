@@ -111,8 +111,19 @@ class ViewController: UIViewController {
 
         
     }
-
-//    func startQuiz(){
+    
+    @IBAction func chooseAnswer1(_ sender: Any) {
+    }
+    
+    @IBAction func chooseAnswer2(_ sender: Any) {
+    }
+    
+    @IBAction func chooseAnswer3(_ sender: Any) {
+    }
+    @IBAction func chooseAnswer4(_ sender: Any) {
+    }
+    
+    //    func startQuiz(){
 ////        questions.shuffle()
 ////        for i in 0 ..< questions.count{
 ////            questions[i].answers.shuffle()

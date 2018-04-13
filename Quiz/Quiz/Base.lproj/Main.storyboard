@@ -40,6 +40,9 @@
                                             <color key="titleColor" red="0.94612330198287964" green="0.98538845777511597" blue="0.95038062334060669" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" red="0.10799964517354965" green="0.1388469934463501" blue="0.50987976789474487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="chooseAnswer2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w4G-t8-Mwu"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwH-bf-y4Y">
                                         <rect key="frame" x="77" y="429" width="212" height="46"/>
@@ -49,6 +52,9 @@
                                             <color key="titleColor" red="0.94612330198287964" green="0.98538845777511597" blue="0.95038062334060669" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" red="0.10799964517354965" green="0.1388469934463501" blue="0.50987976789474487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="chooseAnswer3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZYI-TS-85d"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDI-Mh-ofH">
                                         <rect key="frame" x="77" y="510" width="212" height="46"/>
@@ -58,6 +64,9 @@
                                             <color key="titleColor" red="0.94612330198287964" green="0.98538845777511597" blue="0.95038062334060669" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" red="0.10799964517354965" green="0.1388469934463501" blue="0.50987976789474487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="chooseAnswer4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pGs-Lc-BYi"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="elefante.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IsN-Ww-WjB">
                                         <rect key="frame" x="67" y="92" width="240" height="128"/>
@@ -71,6 +80,9 @@
                                             <color key="titleColor" red="0.94612330198287964" green="0.98538845777511597" blue="0.95038062334060669" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" red="0.10799964517354965" green="0.1388469934463501" blue="0.50987976789474487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="chooseAnswer1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r7C-IP-bVc"/>
+                                        </connections>
                                     </button>
                                     <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8zd-HU-J0J" userLabel="viewFeedback">
                                         <rect key="frame" x="63" y="65" width="249" height="259"/>
