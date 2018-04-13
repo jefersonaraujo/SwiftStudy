@@ -107,7 +107,7 @@ class ViewController: UIViewController {
         
         questions = [question0, question1, question2, question3, question4, question5, question6, question7, question8, question9]
         
-       // startQuiz()
+       startQuiz()
 
         
     }
@@ -123,35 +123,34 @@ class ViewController: UIViewController {
     @IBAction func chooseAnswer4(_ sender: Any) {
     }
     
-    //    func startQuiz(){
-////        questions.shuffle()
-////        for i in 0 ..< questions.count{
-////            questions[i].answers.shuffle()
-//        }
+        func startQuiz(){
+        questions.shuffle()
+        for i in 0 ..< questions.count{
+            questions[i].answers.shuffle()
+        }
+        quizEnded = false
+        grade = 0.0
+        currentQuestion = 0
+
+        showQuestion(questionid: 0)
+    }
 //
-////        quizEnded = false
-////        grade = 0.0
-////        currentQuestion = 0
-//
-//        showQuestion(questionid: 0)
-//    }
-//
-//    func showQuestion(questionid: Int){
-//
-////        btAnswer1.isEnabled = true
-////        btAnswer2.isEnabled = true
-////        btAnswer3.isEnabled = true
-////        btAnswer4.isEnabled = true
-//
-//        lbQuestion.text = questions[questionid].strQuestion
-//        imgQuestion.image = questions[questionid].imgQuestion
-//
-//        btAnswer1.setTitle(questions[questionid].answers[0].strAnswer, for: UIControlState.normal)
-//        btAnswer2.setTitle(questions[questionid].answers[0].strAnswer, for: UIControlState.normal)
-//        btAnswer3.setTitle(questions[questionid].answers[0].strAnswer, for: UIControlState.normal)
-//        btAnswer4.setTitle(questions[questionid].answers[0].strAnswer, for: UIControlState.normal)
-//
-//    }
+    func showQuestion(questionid: Int){
+
+        btAnswer1.isEnabled = true
+        btAnswer2.isEnabled = true
+        btAnswer3.isEnabled = true
+        btAnswer4.isEnabled = true
+
+        lbQuestion.text = questions[questionid].strQuestion
+        imgQuestion.image = questions[questionid].imgQuestion
+
+        btAnswer1.setTitle(questions[questionid].answers[0].strAnswer, for: UIControlState.normal)
+        btAnswer2.setTitle(questions[questionid].answers[1].strAnswer, for: UIControlState.normal)
+        btAnswer3.setTitle(questions[questionid].answers[2].strAnswer, for: UIControlState.normal)
+        btAnswer4.setTitle(questions[questionid].answers[3].strAnswer, for: UIControlState.normal)
+
+    }
 //
 //
 //
