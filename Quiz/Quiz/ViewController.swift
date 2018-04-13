@@ -19,13 +19,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var btAnswer3: UIButton!
     @IBOutlet weak var btAnswer4: UIButton!
 
-
-    //@IBOutlet weak var lbQuestion: UILabel!
-
-    //@IBOutlet weak var viewFeedback: UIView!
-    //@IBOutlet weak var lbFeedback: UILabel!
-    //@IBOutlet weak var btnFeedback: UIButton!
-
+    @IBOutlet weak var viewFeedback: UIView!
+    
+    @IBOutlet weak var btnFeedback: UIButton!
+    
+    @IBOutlet weak var lbFeedback: UILabel!
+    
+ 
     var questions : [Question]!
     var currentQuestion = 0
     var grade = 0.0
@@ -107,44 +107,46 @@ class ViewController: UIViewController {
         
         questions = [question0, question1, question2, question3, question4, question5, question6, question7, question8, question9]
         
-        startQuiz()
+       // startQuiz()
 
         
     }
 
-    func startQuiz(){
-        questions.shuffle()
-        for i in 0 ..< questions.count{
-            questions[i].answers.shuffle()
-        }
-        
-        quizEnded = false
-        grade = 0.0
-        currentQuestion = 0
-        
-        showQuestion(questionid: 0)
-    }
-    
-    func showQuestion(questionid: Int){
-        btnAnswer1.isEnabled = true
-        btnAnswer2.isEnabled = true
-        btnAnswer3.isEnabled = true
-        btnAnswer4.isEnabled = true
-        
-        lbQuestion.text = questions[questionid].strQuestion
-        imgQuestion.image = questions[questionid].imgQuestion
-        
-        btnAnswer1.setTitle(questions[questionid].answers[0].strAnswer, for: UIControlState.normal)
-        btnAnswer2.setTitle(questions[questionid].answers[0].strAnswer, for: UIControlState.normal)
-        btnAnswer3.setTitle(questions[questionid].answers[0].strAnswer, for: UIControlState.normal)
-        btnAnswer4.setTitle(questions[questionid].answers[0].strAnswer, for: UIControlState.normal)
-        
-    }
-    
-   
-        
-        
-    
+//    func startQuiz(){
+////        questions.shuffle()
+////        for i in 0 ..< questions.count{
+////            questions[i].answers.shuffle()
+//        }
+//
+////        quizEnded = false
+////        grade = 0.0
+////        currentQuestion = 0
+//
+//        showQuestion(questionid: 0)
+//    }
+//
+//    func showQuestion(questionid: Int){
+//
+////        btAnswer1.isEnabled = true
+////        btAnswer2.isEnabled = true
+////        btAnswer3.isEnabled = true
+////        btAnswer4.isEnabled = true
+//
+//        lbQuestion.text = questions[questionid].strQuestion
+//        imgQuestion.image = questions[questionid].imgQuestion
+//
+//        btAnswer1.setTitle(questions[questionid].answers[0].strAnswer, for: UIControlState.normal)
+//        btAnswer2.setTitle(questions[questionid].answers[0].strAnswer, for: UIControlState.normal)
+//        btAnswer3.setTitle(questions[questionid].answers[0].strAnswer, for: UIControlState.normal)
+//        btAnswer4.setTitle(questions[questionid].answers[0].strAnswer, for: UIControlState.normal)
+//
+//    }
+//
+//
+//
+//
+
+}
     
   
     
@@ -159,5 +161,5 @@ class ViewController: UIViewController {
         
     // }
     
-}
+///}
 

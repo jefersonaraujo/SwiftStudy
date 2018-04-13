@@ -24,6 +24,16 @@
 		8118C20A20782F9100A3B757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8118C20C20782F9100A3B757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8118C212207831B000A3B757 /* QuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		81384F0C208164C900C4824E /* zebra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zebra.jpg; sourceTree = SOURCE_ROOT; };
+		81384F0D208164C900C4824E /* zubumafu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zubumafu.jpg; sourceTree = SOURCE_ROOT; };
+		81384F0E208164CA00C4824E /* bolt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bolt.jpg; sourceTree = SOURCE_ROOT; };
+		81384F0F208164CA00C4824E /* girafa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girafa.jpg; sourceTree = SOURCE_ROOT; };
+		81384F10208164CB00C4824E /* pinguim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pinguim.jpg; sourceTree = SOURCE_ROOT; };
+		81384F11208164CB00C4824E /* rinoceronte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rinoceronte.jpg; sourceTree = SOURCE_ROOT; };
+		81384F12208164CC00C4824E /* carvalo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carvalo.jpeg; sourceTree = SOURCE_ROOT; };
+		81384F13208164CC00C4824E /* morcego.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = morcego.jpeg; sourceTree = SOURCE_ROOT; };
+		81384F14208164CC00C4824E /* elefante.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elefante.jpg; sourceTree = SOURCE_ROOT; };
+		81384F15208164CD00C4824E /* jacare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jacare.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,16 @@
 		8118C1FF20782F9100A3B757 /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				81384F0E208164CA00C4824E /* bolt.jpg */,
+				81384F12208164CC00C4824E /* carvalo.jpeg */,
+				81384F14208164CC00C4824E /* elefante.jpg */,
+				81384F0F208164CA00C4824E /* girafa.jpg */,
+				81384F15208164CD00C4824E /* jacare.jpg */,
+				81384F13208164CC00C4824E /* morcego.jpeg */,
+				81384F10208164CB00C4824E /* pinguim.jpg */,
+				81384F11208164CB00C4824E /* rinoceronte.jpg */,
+				81384F0C208164C900C4824E /* zebra.jpg */,
+				81384F0D208164C900C4824E /* zubumafu.jpg */,
 				8118C20020782F9100A3B757 /* AppDelegate.swift */,
 				8118C20220782F9100A3B757 /* ViewController.swift */,
 				8118C20420782F9100A3B757 /* Main.storyboard */,
