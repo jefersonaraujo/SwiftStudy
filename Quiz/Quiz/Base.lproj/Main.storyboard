@@ -96,6 +96,9 @@
                                                     <color key="titleColor" red="0.94612330200000005" green="0.98538845779999995" blue="0.95038062329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" red="0.10799964519999999" green="0.13884699340000001" blue="0.5098797679" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btnFeedbackAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HJv-nj-BPH"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="respo" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qtq-9b-jwW">
                                                 <rect key="frame" x="0.0" y="8" width="249" height="53"/>

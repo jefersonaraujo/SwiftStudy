@@ -185,6 +185,17 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func btnFeedbackAction(_ sender: Any) {
+        viewFeedback.isHidden = true
+        
+        if(quizEnded){
+            startQuiz()
+        }else{
+            nextQuestion()
+        }
+    }
+    
+    
     func nextQuestion(){
     currentQuestion += 1
     
