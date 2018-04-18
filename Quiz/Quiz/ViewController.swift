@@ -113,15 +113,47 @@ class ViewController: UIViewController {
     }
     
     @IBAction func chooseAnswer1(_ sender: Any) {
+        selectAnswer(answerid: 0)
+
     }
     
     @IBAction func chooseAnswer2(_ sender: Any) {
+        selectAnswer(answerid: 1)
+
     }
     
     @IBAction func chooseAnswer3(_ sender: Any) {
+        selectAnswer(answerid: 2)
+
     }
     @IBAction func chooseAnswer4(_ sender: Any) {
+        selectAnswer(answerid: 3)
+
     }
+    
+    func  selectAnswer(answerid: Int){
+        btAnswer1.isEnabled = false
+        btAnswer2.isEnabled = false
+        btAnswer3.isEnabled = false
+        btAnswer4.isEnabled = false
+        
+        viewFeedback.isHidden = false
+        
+        let answer: Answer = questions[currentQuestion].answers[answerid]
+        
+        if(answer.isCorrect == true){
+            grade = grade + 1.0
+            lbFeedback.text = answer.strAnswer + "\n\nResposta correta!"
+        }else{
+            lbFeedback.text = answer.strAnswer + "\n\nResposta errada..."
+        }
+        if(currentQuestion < questions.count-1){
+            btnFeedback.setTitle("Próxima", for: UIControlState.normal)
+        }else{
+            btnFeedback.setTitle("Ver Nota", for: UIControlState.normal)
+        }
+    }
+    
     
         func startQuiz(){
         questions.shuffle()
@@ -151,25 +183,30 @@ class ViewController: UIViewController {
         btAnswer4.setTitle(questions[questionid].answers[3].strAnswer, for: UIControlState.normal)
 
     }
-//
-//
-//
-//
+    
+    
+    func nextQuestion(){
+    currentQuestion += 1
+    
+    if(currentQuestion < questions.count){
+    showQuestion(questionid: currentQuestion)
+    }else{
+    endQuiz()
+    }
+    }
+    
+    func endQuiz(){
+        grade = grade / Double(questions.count) * 100.0
+        quizEnded = true
+        viewFeedback.isHidden = false
+        lbFeedback.text = "Sua nota: \(grade)"
+        btnFeedback.setTitle("Refazer", for: UIControlState.normal)
+        
+        
+    }
+
 
 }
     
-  
-    
-    
-    // func ShowQuestion(qid : Int){
-    //     lbQuestion.text = question[qid].strQuestion
-    //     imgQuestion.image = question[qid].imgQuestion
-    //     btAnswer1.setTitle(question[qid].answers[0].strAnswer,for: .normal)
-    //     btAnswer2.setTitle(question[qid].answers[1].strAnswer,for: .normal)
-    //     btAnswer3.setTitle(question[qid].answers[2].strAnswer,for: .normal)
-    //     btAnswer4.setTitle(question[qid].answers[3].strAnswer,for: .normal)
-        
-    // }
-    
-///}
+
 

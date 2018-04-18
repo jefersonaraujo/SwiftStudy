@@ -13,7 +13,7 @@
 		8118C20620782F9100A3B757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8118C20420782F9100A3B757 /* Main.storyboard */; };
 		8118C20820782F9100A3B757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8118C20720782F9100A3B757 /* Assets.xcassets */; };
 		8118C20B20782F9100A3B757 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8118C20920782F9100A3B757 /* LaunchScreen.storyboard */; };
-		8118C213207831B000A3B757 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8118C212207831B000A3B757 /* QuizModel.swift */; };
+		8128DD772087FEFC0041E2FC /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8128DD762087FEFC0041E2FC /* QuizModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,17 @@
 		8118C20720782F9100A3B757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8118C20A20782F9100A3B757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8118C20C20782F9100A3B757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8118C212207831B000A3B757 /* QuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = SOURCE_ROOT; };
+		8128DD762087FEFC0041E2FC /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		8128DD782087FF790041E2FC /* zebra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zebra.jpg; sourceTree = SOURCE_ROOT; };
+		8128DD792087FF7A0041E2FC /* zubumafu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zubumafu.jpg; sourceTree = SOURCE_ROOT; };
+		8128DD7A2087FF7A0041E2FC /* bolt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bolt.jpg; sourceTree = SOURCE_ROOT; };
+		8128DD7B2087FF7A0041E2FC /* girafa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girafa.jpg; sourceTree = SOURCE_ROOT; };
+		8128DD7C2087FF7B0041E2FC /* pinguim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pinguim.jpg; sourceTree = SOURCE_ROOT; };
+		8128DD7D2087FF7B0041E2FC /* rinoceronte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rinoceronte.jpg; sourceTree = SOURCE_ROOT; };
+		8128DD7E2087FF7C0041E2FC /* carvalo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carvalo.jpeg; sourceTree = SOURCE_ROOT; };
+		8128DD7F2087FF7C0041E2FC /* morcego.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = morcego.jpeg; sourceTree = SOURCE_ROOT; };
+		8128DD802087FF7D0041E2FC /* elefante.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elefante.jpg; sourceTree = SOURCE_ROOT; };
+		8128DD812087FF7D0041E2FC /* jacare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jacare.jpg; sourceTree = SOURCE_ROOT; };
 		81384F0C208164C900C4824E /* zebra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zebra.jpg; sourceTree = SOURCE_ROOT; };
 		81384F0D208164C900C4824E /* zubumafu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zubumafu.jpg; sourceTree = SOURCE_ROOT; };
 		81384F0E208164CA00C4824E /* bolt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bolt.jpg; sourceTree = SOURCE_ROOT; };
@@ -68,8 +78,18 @@
 		8118C1FF20782F9100A3B757 /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				8128DD7A2087FF7A0041E2FC /* bolt.jpg */,
+				8128DD7E2087FF7C0041E2FC /* carvalo.jpeg */,
+				8128DD802087FF7D0041E2FC /* elefante.jpg */,
+				8128DD7B2087FF7A0041E2FC /* girafa.jpg */,
+				8128DD812087FF7D0041E2FC /* jacare.jpg */,
+				8128DD7F2087FF7C0041E2FC /* morcego.jpeg */,
+				8128DD7C2087FF7B0041E2FC /* pinguim.jpg */,
+				8128DD7D2087FF7B0041E2FC /* rinoceronte.jpg */,
+				8128DD782087FF790041E2FC /* zebra.jpg */,
+				8128DD792087FF7A0041E2FC /* zubumafu.jpg */,
 				8111AB3920816D7E00985837 /* ExtraFunctions.swift */,
-				8118C212207831B000A3B757 /* QuizModel.swift */,
+				8128DD762087FEFC0041E2FC /* QuizModel.swift */,
 				81384F0E208164CA00C4824E /* bolt.jpg */,
 				81384F12208164CC00C4824E /* carvalo.jpeg */,
 				81384F14208164CC00C4824E /* elefante.jpg */,
@@ -164,8 +184,8 @@
 			files = (
 				8111AB3A20816D7F00985837 /* ExtraFunctions.swift in Sources */,
 				8118C20320782F9100A3B757 /* ViewController.swift in Sources */,
-				8118C213207831B000A3B757 /* QuizModel.swift in Sources */,
 				8118C20120782F9100A3B757 /* AppDelegate.swift in Sources */,
+				8128DD772087FEFC0041E2FC /* QuizModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
