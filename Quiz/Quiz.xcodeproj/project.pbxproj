@@ -26,26 +26,6 @@
 		8118C20A20782F9100A3B757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8118C20C20782F9100A3B757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8128DD762087FEFC0041E2FC /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
-		8128DD782087FF790041E2FC /* zebra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zebra.jpg; sourceTree = SOURCE_ROOT; };
-		8128DD792087FF7A0041E2FC /* zubumafu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zubumafu.jpg; sourceTree = SOURCE_ROOT; };
-		8128DD7A2087FF7A0041E2FC /* bolt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bolt.jpg; sourceTree = SOURCE_ROOT; };
-		8128DD7B2087FF7A0041E2FC /* girafa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girafa.jpg; sourceTree = SOURCE_ROOT; };
-		8128DD7C2087FF7B0041E2FC /* pinguim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pinguim.jpg; sourceTree = SOURCE_ROOT; };
-		8128DD7D2087FF7B0041E2FC /* rinoceronte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rinoceronte.jpg; sourceTree = SOURCE_ROOT; };
-		8128DD7E2087FF7C0041E2FC /* carvalo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carvalo.jpeg; sourceTree = SOURCE_ROOT; };
-		8128DD7F2087FF7C0041E2FC /* morcego.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = morcego.jpeg; sourceTree = SOURCE_ROOT; };
-		8128DD802087FF7D0041E2FC /* elefante.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elefante.jpg; sourceTree = SOURCE_ROOT; };
-		8128DD812087FF7D0041E2FC /* jacare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jacare.jpg; sourceTree = SOURCE_ROOT; };
-		81384F0C208164C900C4824E /* zebra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zebra.jpg; sourceTree = SOURCE_ROOT; };
-		81384F0D208164C900C4824E /* zubumafu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zubumafu.jpg; sourceTree = SOURCE_ROOT; };
-		81384F0E208164CA00C4824E /* bolt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bolt.jpg; sourceTree = SOURCE_ROOT; };
-		81384F0F208164CA00C4824E /* girafa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girafa.jpg; sourceTree = SOURCE_ROOT; };
-		81384F10208164CB00C4824E /* pinguim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pinguim.jpg; sourceTree = SOURCE_ROOT; };
-		81384F11208164CB00C4824E /* rinoceronte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rinoceronte.jpg; sourceTree = SOURCE_ROOT; };
-		81384F12208164CC00C4824E /* carvalo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carvalo.jpeg; sourceTree = SOURCE_ROOT; };
-		81384F13208164CC00C4824E /* morcego.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = morcego.jpeg; sourceTree = SOURCE_ROOT; };
-		81384F14208164CC00C4824E /* elefante.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elefante.jpg; sourceTree = SOURCE_ROOT; };
-		81384F15208164CD00C4824E /* jacare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jacare.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,28 +58,8 @@
 		8118C1FF20782F9100A3B757 /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
-				8128DD7A2087FF7A0041E2FC /* bolt.jpg */,
-				8128DD7E2087FF7C0041E2FC /* carvalo.jpeg */,
-				8128DD802087FF7D0041E2FC /* elefante.jpg */,
-				8128DD7B2087FF7A0041E2FC /* girafa.jpg */,
-				8128DD812087FF7D0041E2FC /* jacare.jpg */,
-				8128DD7F2087FF7C0041E2FC /* morcego.jpeg */,
-				8128DD7C2087FF7B0041E2FC /* pinguim.jpg */,
-				8128DD7D2087FF7B0041E2FC /* rinoceronte.jpg */,
-				8128DD782087FF790041E2FC /* zebra.jpg */,
-				8128DD792087FF7A0041E2FC /* zubumafu.jpg */,
 				8111AB3920816D7E00985837 /* ExtraFunctions.swift */,
 				8128DD762087FEFC0041E2FC /* QuizModel.swift */,
-				81384F0E208164CA00C4824E /* bolt.jpg */,
-				81384F12208164CC00C4824E /* carvalo.jpeg */,
-				81384F14208164CC00C4824E /* elefante.jpg */,
-				81384F0F208164CA00C4824E /* girafa.jpg */,
-				81384F15208164CD00C4824E /* jacare.jpg */,
-				81384F13208164CC00C4824E /* morcego.jpeg */,
-				81384F10208164CB00C4824E /* pinguim.jpg */,
-				81384F11208164CB00C4824E /* rinoceronte.jpg */,
-				81384F0C208164C900C4824E /* zebra.jpg */,
-				81384F0D208164C900C4824E /* zubumafu.jpg */,
 				8118C20020782F9100A3B757 /* AppDelegate.swift */,
 				8118C20220782F9100A3B757 /* ViewController.swift */,
 				8118C20420782F9100A3B757 /* Main.storyboard */,
