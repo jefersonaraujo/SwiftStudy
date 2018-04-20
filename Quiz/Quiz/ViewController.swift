@@ -143,9 +143,9 @@ class ViewController: UIViewController {
         
         if(answer.isCorrect == true){
             grade = grade + 1.0
-            lbFeedback.text = answer.strAnswer + "\n\nResposta correta!"
+            lbFeedback.text = answer.strAnswer + "\n Resposta correta!"
         }else{
-            lbFeedback.text = answer.strAnswer + "\n\nResposta errada..."
+            lbFeedback.text = answer.strAnswer + "\n Resposta errada..."
         }
         if(currentQuestion < questions.count-1){
             btnFeedback.setTitle("Próxima", for: UIControlState.normal)
