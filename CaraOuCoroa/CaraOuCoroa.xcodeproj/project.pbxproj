@@ -22,6 +22,7 @@
 		81906EEA20ACE4EC0009946F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81906EED20ACE4EC0009946F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81906EEF20ACE4EC0009946F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81906EF520ACE6190009946F /* tag desafio cara ou coroa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tag desafio cara ou coroa.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		81906EE220ACE4EC0009946F /* CaraOuCoroa */ = {
 			isa = PBXGroup;
 			children = (
+				81906EF520ACE6190009946F /* tag desafio cara ou coroa.jpg */,
 				81906EE320ACE4EC0009946F /* AppDelegate.swift */,
 				81906EE520ACE4EC0009946F /* ViewController.swift */,
 				81906EE720ACE4EC0009946F /* Main.storyboard */,
