@@ -17,29 +17,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="CARA OU COROA ?" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zDo-At-Jmu">
-                                <rect key="frame" x="78" y="51" width="206" height="38"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="PCM-4i-8pO">
+                                <rect key="frame" x="61" y="143" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAW-cT-120">
-                                <rect key="frame" x="117" y="458" width="116" height="30"/>
+                            </imageView>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAW-cT-120">
+                                <rect key="frame" x="125" y="404" width="124" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <size key="titleShadowOffset" width="3" height="2"/>
-                                <state key="normal" title="Jogar">
+                                <state key="normal" backgroundImage="botao_jogar.png">
                                     <color key="titleColor" red="0.942238450050354" green="0.9357878565788269" blue="0.97937577962875366" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.21884229779243469" green="0.03065158799290657" blue="0.95999652147293091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tag desafio cara ou coroa.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PCM-4i-8pO">
-                                <rect key="frame" x="61" y="218" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.32877400517463684" green="0.74501150846481323" blue="0.9254642128944397" alpha="0.84779002568493156" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.38124877214431763" green="0.74196165800094604" blue="0.5488288402557373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -49,6 +41,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="tag desafio cara ou coroa.jpg" width="190" height="190"/>
+        <image name="botao_jogar.png" width="271" height="74"/>
+        <image name="logo.png" width="321" height="154"/>
     </resources>
 </document>
