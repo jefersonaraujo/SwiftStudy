@@ -26,7 +26,6 @@
                                     <color key="titleShadowColor" red="0.21884229779243469" green="0.03065158799290657" blue="0.95999652147293091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="Jogar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uQV-zf-LWh"/>
                                     <segue destination="n8d-L2-4t8" kind="show" identifier="moeda" id="s9m-hE-t4k"/>
                                 </connections>
                             </button>
@@ -39,9 +38,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="bSw-w5-tQR"/>
-                    <connections>
-                        <segue destination="n8d-L2-4t8" kind="show" id="1F7-ve-FnR"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -55,12 +51,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="moeda_cara" translatesAutoresizingMaskIntoConstraints="NO" id="mxq-7R-BVB">
-                                <rect key="frame" x="69" y="271" width="171" height="171"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="xX6-LL-lt1">
                                 <rect key="frame" x="34" y="83" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LtA-Js-dzi">
+                                <rect key="frame" x="23" y="236" width="261" height="205"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -94,9 +90,5 @@
     <resources>
         <image name="botao_jogar" width="271" height="74"/>
         <image name="logo" width="321" height="154"/>
-        <image name="moeda_cara" width="305" height="304"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="s9m-hE-t4k"/>
-    </inferredMetricsTieBreakers>
 </document>
