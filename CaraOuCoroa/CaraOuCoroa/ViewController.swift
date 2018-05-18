@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func Jogar(_ sender: Any) {
+        
         let numero:Int = Int(arc4random_uniform(2))
         print(numero)
 
