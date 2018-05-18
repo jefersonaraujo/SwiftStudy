@@ -22,15 +22,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "moeda"{
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "moeda"{
 
-//            let controleDestino = segue.destination as! DetalhesViewController
-           // let numero:Int = Int(arc4random_uniform(2))
+            let controleDestino = segue.destination as! DetalhesViewController
+            let numero:Int = Int(arc4random_uniform(2))
         
-//            controleDestino.numeroRecebido = numero
-        //}
-    //}
+            controleDestino.numeroRecebido = numero
+        }
+    }
    
     }
     

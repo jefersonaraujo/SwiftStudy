@@ -21,10 +21,11 @@ class DetalhesViewController: UIViewController {
         
         
         if  numeroRecebido == 0{
-            
+            print(numeroRecebido)
             
           
         }else{
+            print(numeroRecebido)
             
         }
     }
