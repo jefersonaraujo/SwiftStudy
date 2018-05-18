@@ -22,6 +22,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func Jogar(_ sender: Any) {
+        let numero:Int = Int(arc4random_uniform(2))
+        print(numero)
 
+    }
+    
 }
 
