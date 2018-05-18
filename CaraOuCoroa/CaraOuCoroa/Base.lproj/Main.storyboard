@@ -27,7 +27,7 @@
                                 </state>
                                 <connections>
                                     <action selector="Jogar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uQV-zf-LWh"/>
-                                    <segue destination="n8d-L2-4t8" kind="show" id="s9m-hE-t4k"/>
+                                    <segue destination="n8d-L2-4t8" kind="show" identifier="moeda" id="s9m-hE-t4k"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="PCM-4i-8pO">
