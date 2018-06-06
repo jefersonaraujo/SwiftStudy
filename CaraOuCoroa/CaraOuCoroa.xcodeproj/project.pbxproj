@@ -27,6 +27,7 @@
 		81906EF620ACE9460009946F /* botao_jogar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botao_jogar.png; sourceTree = "<group>"; };
 		81906EF720ACE9850009946F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		81906EF820ACEBDD0009946F /* moeda_cara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moeda_cara.png; sourceTree = "<group>"; };
+		81C621A520C8A26300BE9BBA /* finn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finn.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 				81906EE520ACE4EC0009946F /* ViewController.swift */,
 				81906EE720ACE4EC0009946F /* Main.storyboard */,
 				81906EEA20ACE4EC0009946F /* Assets.xcassets */,
+				81C621A520C8A26300BE9BBA /* finn.png */,
 				81906EF820ACEBDD0009946F /* moeda_cara.png */,
 				81906EF720ACE9850009946F /* logo.png */,
 				81906EF620ACE9460009946F /* botao_jogar.png */,

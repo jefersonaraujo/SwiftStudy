@@ -13,19 +13,23 @@ import UIKit
 class DetalhesViewController: UIViewController {
     
     
-    @IBOutlet var imgMoedas: UIView!
+   
+  
     var numeroRecebido:Int!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
         if  numeroRecebido == 0{
+            //imgage.image = #imageLiteral(resourceName: "moeda_cara")
             print(numeroRecebido)
             
           
         }else{
-            print(numeroRecebido)
+             print(numeroRecebido)
+            //imgage.image = #imageLiteral(resourceName: "moeda_coroa")
             
         }
     }
