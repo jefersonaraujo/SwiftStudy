@@ -13,6 +13,7 @@
 		81906EE920ACE4EC0009946F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81906EE720ACE4EC0009946F /* Main.storyboard */; };
 		81906EEB20ACE4EC0009946F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81906EEA20ACE4EC0009946F /* Assets.xcassets */; };
 		81906EEE20ACE4EC0009946F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81906EEC20ACE4EC0009946F /* LaunchScreen.storyboard */; };
+		81C621A720C8A8C700BE9BBA /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C621A620C8A8C700BE9BBA /* person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		81906EF720ACE9850009946F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		81906EF820ACEBDD0009946F /* moeda_cara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moeda_cara.png; sourceTree = "<group>"; };
 		81C621A520C8A26300BE9BBA /* finn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finn.png; sourceTree = "<group>"; };
+		81C621A620C8A8C700BE9BBA /* person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				81906EF620ACE9460009946F /* botao_jogar.png */,
 				81906EEC20ACE4EC0009946F /* LaunchScreen.storyboard */,
 				81906EEF20ACE4EC0009946F /* Info.plist */,
+				81C621A620C8A8C700BE9BBA /* person.swift */,
 			);
 			path = CaraOuCoroa;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			files = (
 				81906EE620ACE4EC0009946F /* ViewController.swift in Sources */,
 				81906EE420ACE4EC0009946F /* AppDelegate.swift in Sources */,
+				81C621A720C8A8C700BE9BBA /* person.swift in Sources */,
 				818C853920AF94800073AAA2 /* DetalhesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

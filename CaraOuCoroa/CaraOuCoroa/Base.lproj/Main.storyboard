@@ -36,6 +36,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mB3-Kv-h0y">
+                                <rect key="frame" x="16" y="266" width="143" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="Finn" image="finn">
+                                    <color key="titleColor" red="0.94223845009999996" green="0.93578785659999997" blue="0.9793757796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.2188422978" green="0.03065158799" blue="0.95999652150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.25986289978027344" green="0.56081682443618774" blue="0.81495833396911621" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -81,6 +90,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SjS-lU-T19" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1453.125" y="116.19718309859155"/>
+        </scene>
+        <!--Pers-->
+        <scene sceneID="Q8M-Vd-Eee">
+            <objects>
+                <viewController id="81u-Ud-fyh" customClass="pers" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NtB-Iw-fvI" customClass="pers">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="finn" translatesAutoresizingMaskIntoConstraints="NO" id="Xv4-RA-HGG">
+                                <rect key="frame" x="66" y="44" width="168" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7D0-RC-cXW">
+                                <rect key="frame" x="35" y="230" width="269" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lsO-GM-lhu">
+                                        <rect key="frame" x="8" y="8" width="246" height="240"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">Finn é um garoto humano de 17 anos que adora derrotar as forças do mal sendo ótimo em várias formas de combate. Já foi mostrado em alguns episódios que Finn tem habilidades ninjas. Finn se chamava Pen no episódio piloto. (Em homenagem do seu criador Pendleton Ward) Usa uma espécie de gorro na cabeça auto-proclamado "Incrível", que esconde seus longos cabelos loiros.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91524046659469604" green="0.84814232587814331" blue="0.5113939642906189" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="7lO-1I-KD6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iWa-dy-FlE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1181" y="792"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pBX-8t-vLs">
