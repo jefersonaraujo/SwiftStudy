@@ -48,11 +48,15 @@
                             <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mB3-Kv-h0y">
                                 <rect key="frame" x="30" y="275" width="143" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                                 <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="Finn" image="images">
                                     <color key="titleColor" red="0.94223845009999996" green="0.93578785659999997" blue="0.9793757796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.2188422978" green="0.03065158799" blue="0.95999652150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wNT-Uc-pXP" appends="YES" id="N4k-v2-sCT"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96405881643295288" green="0.98878282308578491" blue="0.97123903036117554" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -61,6 +65,7 @@
                     <navigationItem key="navigationItem" id="bSw-w5-tQR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="wNT-Uc-pXP"/>
             </objects>
             <point key="canvasLocation" x="397.5" y="75"/>
         </scene>
@@ -107,31 +112,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="finn" translatesAutoresizingMaskIntoConstraints="NO" id="Xv4-RA-HGG">
-                                <rect key="frame" x="66" y="44" width="168" height="166"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7D0-RC-cXW">
                                 <rect key="frame" x="35" y="230" width="269" height="256"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lsO-GM-lhu">
-                                        <rect key="frame" x="8" y="8" width="246" height="240"/>
+                                        <rect key="frame" x="8" y="8" width="246" height="338.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">Finn é um garoto humano de 17 anos que adora derrotar as forças do mal sendo ótimo em várias formas de combate. Já foi mostrado em alguns episódios que Finn tem habilidades ninjas. Finn se chamava Pen no episódio piloto. (Em homenagem do seu criador Pendleton Ward) Usa uma espécie de gorro na cabeça auto-proclamado "Incrível", que esconde seus longos cabelos loiros.</string>
+                                        <mutableString key="text">É um bulldog de 28 anos e melhor amigo de Finn e um grande aventureiro graças a seus poderes, que ganhou quando nasceu da cabeça de seu pai que foi mordida por um alienigena com poderes de se esticar. Ele é capaz de esticar e encolher qualquer parte de seu corpo, além de moldá-lo no formato que desejar. Seus poderes ajudam Finn consideravelmente em combate ou são usados apenas como formas de expressão jovial. Jake tem um irmão chamado Jermaine e os seus pais são Joshua e Margaret que encontraram Finn ainda bebê.</mutableString>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="Xv4-RA-HGG">
+                                <rect key="frame" x="68" y="29" width="168" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Lqg-f2-Yex" appends="YES" id="nEH-bn-j5d"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.91524046659469604" green="0.84814232587814331" blue="0.5113939642906189" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="7lO-1I-KD6"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="OwN-GC-Nun" appends="YES" id="5Uj-wa-gna"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iWa-dy-FlE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="Lqg-f2-Yex"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="OwN-GC-Nun"/>
             </objects>
             <point key="canvasLocation" x="1181" y="792"/>
         </scene>
@@ -152,6 +167,120 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N9R-z2-oZG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-439" y="100"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="clv-fx-wCW">
+            <objects>
+                <viewController id="zrn-AT-c69" customClass="ViewController" customModule="CaraOuCoroa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AUd-zo-G0N">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPl-7X-mQc">
+                                <rect key="frame" x="36" y="134" width="143" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="Finn" image="finn">
+                                    <color key="titleColor" red="0.94223845009999996" green="0.93578785659999997" blue="0.9793757796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.2188422978" green="0.03065158799" blue="0.95999652150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Adventure Time" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n2g-ws-e4f">
+                                <rect key="frame" x="36" y="77" width="226" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyr-fS-5qm">
+                                <rect key="frame" x="30" y="404" width="143" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="Finn" image="Rei_Gelado-1">
+                                    <color key="titleColor" red="0.94223845009999996" green="0.93578785659999997" blue="0.9793757796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.2188422978" green="0.03065158799" blue="0.95999652150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1os-6l-PHx">
+                                <rect key="frame" x="30" y="275" width="143" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="Finn" image="images">
+                                    <color key="titleColor" red="0.94223845009999996" green="0.93578785659999997" blue="0.9793757796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.2188422978" green="0.03065158799" blue="0.95999652150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="dLJ-Me-m1a" appends="YES" id="NXH-u9-5WJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96405881643295288" green="0.98878282308578491" blue="0.97123903036117554" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="IbW-Oh-rQk"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="g92-Zs-54z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iaw-8i-Ws9" sceneMemberID="firstResponder"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="dLJ-Me-m1a"/>
+            </objects>
+            <point key="canvasLocation" x="397.5" y="75"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Sa5-hr-b8G">
+            <objects>
+                <viewController id="VYs-nG-g0n" customClass="ViewController" customModule="CaraOuCoroa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uYl-Nb-kfh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XtB-Et-olk">
+                                <rect key="frame" x="36" y="134" width="143" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="Finn" image="finn">
+                                    <color key="titleColor" red="0.94223845009999996" green="0.93578785659999997" blue="0.9793757796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.2188422978" green="0.03065158799" blue="0.95999652150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Adventure Time" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K2Y-e1-262">
+                                <rect key="frame" x="36" y="77" width="226" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNH-fs-zJL">
+                                <rect key="frame" x="30" y="404" width="143" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="Finn" image="Rei_Gelado-1">
+                                    <color key="titleColor" red="0.94223845009999996" green="0.93578785659999997" blue="0.9793757796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.2188422978" green="0.03065158799" blue="0.95999652150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3KX-MJ-mMt">
+                                <rect key="frame" x="30" y="275" width="143" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="Finn" image="images">
+                                    <color key="titleColor" red="0.94223845009999996" green="0.93578785659999997" blue="0.9793757796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.2188422978" green="0.03065158799" blue="0.95999652150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="YnB-ks-EE0" appends="YES" id="Gvc-mM-0DQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96405881643295288" green="0.98878282308578491" blue="0.97123903036117554" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="D8q-DW-Pm5"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wl0-TF-jKa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="auK-WY-ote" sceneMemberID="firstResponder"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="YnB-ks-EE0"/>
+            </objects>
+            <point key="canvasLocation" x="397.5" y="75"/>
         </scene>
     </scenes>
     <resources>
