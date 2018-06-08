@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAW-cT-120">
-                                <rect key="frame" x="16" y="137" width="143" height="121"/>
+                                <rect key="frame" x="36" y="134" width="143" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <size key="titleShadowOffset" width="3" height="2"/>
                                 <state key="normal" title="Finn" image="finn">
@@ -29,24 +29,33 @@
                                     <segue destination="n8d-L2-4t8" kind="show" identifier="moeda" id="s9m-hE-t4k"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hora da Aventura" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="evy-Jq-MFa">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Adventure Time" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="evy-Jq-MFa">
                                 <rect key="frame" x="36" y="77" width="226" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mB3-Kv-h0y">
-                                <rect key="frame" x="16" y="266" width="143" height="121"/>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZT-zt-Hd0">
+                                <rect key="frame" x="30" y="404" width="143" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <size key="titleShadowOffset" width="3" height="2"/>
-                                <state key="normal" title="Finn" image="finn">
+                                <state key="normal" title="Finn" image="Rei_Gelado-1">
+                                    <color key="titleColor" red="0.94223845009999996" green="0.93578785659999997" blue="0.9793757796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.2188422978" green="0.03065158799" blue="0.95999652150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mB3-Kv-h0y">
+                                <rect key="frame" x="30" y="275" width="143" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="Finn" image="images">
                                     <color key="titleColor" red="0.94223845009999996" green="0.93578785659999997" blue="0.9793757796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.2188422978" green="0.03065158799" blue="0.95999652150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.25986289978027344" green="0.56081682443618774" blue="0.81495833396911621" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.96405881643295288" green="0.98878282308578491" blue="0.97123903036117554" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="bSw-w5-tQR"/>
@@ -64,15 +73,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="finn" translatesAutoresizingMaskIntoConstraints="NO" id="xX6-LL-lt1">
-                                <rect key="frame" x="57" y="83" width="168" height="166"/>
+                                <rect key="frame" x="57" y="83" width="168" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oiX-hc-HWg">
-                                <rect key="frame" x="26" y="269" width="269" height="256"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hJm-CC-k3V">
+                                <rect key="frame" x="16" y="185" width="288" height="636"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eJD-UJ-kwA">
-                                        <rect key="frame" x="8" y="8" width="246" height="240"/>
+                                        <rect key="frame" x="7" y="8" width="273" height="326"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Finn é um garoto humano de 17 anos que adora derrotar as forças do mal sendo ótimo em várias formas de combate. Já foi mostrado em alguns episódios que Finn tem habilidades ninjas. Finn se chamava Pen no episódio piloto. (Em homenagem do seu criador Pendleton Ward) Usa uma espécie de gorro na cabeça auto-proclamado "Incrível", que esconde seus longos cabelos loiros.</string>
@@ -80,8 +89,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.28159216046333313" green="0.57580345869064331" blue="0.91301459074020386" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="3uB-As-gcq"/>
@@ -147,6 +155,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Rei_Gelado-1" width="293" height="378"/>
         <image name="finn" width="356" height="570"/>
+        <image name="images" width="194" height="260"/>
     </resources>
 </document>
