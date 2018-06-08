@@ -276,33 +276,15 @@ Ele também tem uma gravata borboleta de vinho e um bolso com utensílios médic
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XtB-Et-olk">
-                                <rect key="frame" x="36" y="134" width="143" height="121"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <size key="titleShadowOffset" width="3" height="2"/>
-                                <state key="normal" title="Finn" image="finn">
-                                    <color key="titleColor" red="0.94223845009999996" green="0.93578785659999997" blue="0.9793757796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.2188422978" green="0.03065158799" blue="0.95999652150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Adventure Time" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K2Y-e1-262">
-                                <rect key="frame" x="36" y="77" width="226" height="32"/>
+                                <rect key="frame" x="47" y="20" width="226" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNH-fs-zJL">
-                                <rect key="frame" x="30" y="404" width="143" height="121"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <size key="titleShadowOffset" width="3" height="2"/>
-                                <state key="normal" title="Finn" image="Rei_Gelado-1">
-                                    <color key="titleColor" red="0.94223845009999996" green="0.93578785659999997" blue="0.9793757796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.2188422978" green="0.03065158799" blue="0.95999652150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                             <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3KX-MJ-mMt">
-                                <rect key="frame" x="30" y="275" width="143" height="121"/>
+                                <rect key="frame" x="16" y="237" width="143" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <size key="titleShadowOffset" width="3" height="2"/>
@@ -315,6 +297,45 @@ Ele também tem uma gravata borboleta de vinho e um bolso com utensílios médic
                                     <segue destination="81u-Ud-fyh" kind="show" identifier="jake" id="0Va-jv-GKz"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNH-fs-zJL">
+                                <rect key="frame" x="21" y="390" width="143" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="Finn" image="Rei_Gelado-1">
+                                    <color key="titleColor" red="0.94223845009999996" green="0.93578785659999997" blue="0.9793757796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.2188422978" green="0.03065158799" blue="0.95999652150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XtB-Et-olk">
+                                <rect key="frame" x="21" y="78" width="143" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="3" height="2"/>
+                                <state key="normal" title="Finn" image="finn">
+                                    <color key="titleColor" red="0.94223845009999996" green="0.93578785659999997" blue="0.9793757796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.2188422978" green="0.03065158799" blue="0.95999652150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Jake" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wwF-dk-IeY">
+                                <rect key="frame" x="192" y="288" width="65" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Rei Gelado" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RpL-W4-XpA">
+                                <rect key="frame" x="192" y="441" width="94" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Finn" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oLN-wh-lxd">
+                                <rect key="frame" x="192" y="103" width="65" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.96405881643295288" green="0.98878282308578491" blue="0.97123903036117554" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="D8q-DW-Pm5"/>
@@ -333,6 +354,6 @@ Ele também tem uma gravata borboleta de vinho e um bolso com utensílios médic
         <image name="images" width="194" height="260"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qdc-cI-zvr"/>
+        <segue reference="0Va-jv-GKz"/>
     </inferredMetricsTieBreakers>
 </document>
