@@ -55,7 +55,7 @@
                                     <color key="titleShadowColor" red="0.2188422978" green="0.03065158799" blue="0.95999652150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="wNT-Uc-pXP" appends="YES" id="N4k-v2-sCT"/>
+                                    <segue destination="81u-Ud-fyh" kind="show" id="qdc-cI-zvr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -104,10 +104,30 @@
             </objects>
             <point key="canvasLocation" x="1453.125" y="116.19718309859155"/>
         </scene>
-        <!--Pers-->
+        <!--View Controller-->
+        <scene sceneID="nb2-03-c4a">
+            <objects>
+                <viewController id="BUh-9k-B8U" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lec-WC-Tn8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="Va2-Mm-maa"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="1tW-Mp-xMk" appends="YES" id="Q8d-tD-vtU"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZqI-Lv-sF5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="1tW-Mp-xMk"/>
+            </objects>
+            <point key="canvasLocation" x="405" y="1120"/>
+        </scene>
+        <!--Person-->
         <scene sceneID="Q8M-Vd-Eee">
             <objects>
-                <viewController id="81u-Ud-fyh" customClass="pers" sceneMemberID="viewController">
+                <viewController id="81u-Ud-fyh" customClass="person" customModule="CaraOuCoroa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NtB-Iw-fvI" customClass="pers">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -139,16 +159,12 @@
                         <color key="backgroundColor" red="0.91524046659469604" green="0.84814232587814331" blue="0.5113939642906189" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="7lO-1I-KD6"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="OwN-GC-Nun" appends="YES" id="5Uj-wa-gna"/>
-                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iWa-dy-FlE" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="Lqg-f2-Yex"/>
-                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="OwN-GC-Nun"/>
             </objects>
-            <point key="canvasLocation" x="1181" y="792"/>
+            <point key="canvasLocation" x="1067" y="896"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pBX-8t-vLs">
@@ -269,6 +285,7 @@
                                 </state>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="YnB-ks-EE0" appends="YES" id="Gvc-mM-0DQ"/>
+                                    <segue destination="81u-Ud-fyh" kind="show" identifier="jake" id="0Va-jv-GKz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -288,4 +305,7 @@
         <image name="finn" width="356" height="570"/>
         <image name="images" width="194" height="260"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="qdc-cI-zvr"/>
+    </inferredMetricsTieBreakers>
 </document>

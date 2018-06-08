@@ -30,6 +30,17 @@ class ViewController: UIViewController {
         
             controleDestino.numeroRecebido = numero
         }
+        
+        if segue.identifier == "jake"{
+            
+            segue.destination as!
+            person
+            
+            
+            
+            
+           
+        }
     }
    
     }
