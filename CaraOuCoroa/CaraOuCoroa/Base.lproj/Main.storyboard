@@ -44,6 +44,9 @@
                                     <color key="titleColor" red="0.94223845009999996" green="0.93578785659999997" blue="0.9793757796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.2188422978" green="0.03065158799" blue="0.95999652150000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BUh-9k-B8U" kind="show" id="Z3v-Q6-GHn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mB3-Kv-h0y">
                                 <rect key="frame" x="30" y="275" width="143" height="121"/>
@@ -111,7 +114,31 @@
                     <view key="view" contentMode="scaleToFill" id="lec-WC-Tn8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aU6-da-K41">
+                                <rect key="frame" x="16" y="185" width="288" height="636"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dx8-CV-vhK">
+                                        <rect key="frame" x="7" y="8" width="273" height="326"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <mutableString key="text">Rei Gelado tem a pele azul uma barba longa e branca. Suas sobrancelhas tem formato de raios e quase o tempo todo usa uma coroa. É revelado em prisioneiras do amor que embaixo dela tem um fiapo de cabelo. Ele tem um manto azul escuro bem longo. E também tem um longo nariz.Como Simon ele tinha cabelo marrom com dois pedaços do lado.Com olhos brancos. Ele tinha um terno com uma jaqueta cinza e uma calça da mesma cor.
+
+A roupa de baixo é verde claro como um colete preto e botoes amarelos.
+
+Ele também tem uma gravata borboleta de vinho e um bolso com utensílios médicos e um parasita cientifico</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rei_Gelado-1" translatesAutoresizingMaskIntoConstraints="NO" id="mit-sF-nER">
+                                <rect key="frame" x="76" y="83" width="168" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.30508235096931458" green="0.61287957429885864" blue="0.98951023817062378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="Va2-Mm-maa"/>
                         <connections>
@@ -133,11 +160,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7D0-RC-cXW">
-                                <rect key="frame" x="35" y="230" width="269" height="256"/>
+                                <rect key="frame" x="35" y="230" width="274" height="348"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lsO-GM-lhu">
-                                        <rect key="frame" x="8" y="8" width="246" height="338.5"/>
+                                        <rect key="frame" x="8" y="8" width="246" height="320"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <mutableString key="text">É um bulldog de 28 anos e melhor amigo de Finn e um grande aventureiro graças a seus poderes, que ganhou quando nasceu da cabeça de seu pai que foi mordida por um alienigena com poderes de se esticar. Ele é capaz de esticar e encolher qualquer parte de seu corpo, além de moldá-lo no formato que desejar. Seus poderes ajudam Finn consideravelmente em combate ou são usados apenas como formas de expressão jovial. Jake tem um irmão chamado Jermaine e os seus pais são Joshua e Margaret que encontraram Finn ainda bebê.</mutableString>
@@ -148,7 +175,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="Xv4-RA-HGG">
-                                <rect key="frame" x="68" y="29" width="168" height="166"/>
+                                <rect key="frame" x="80" y="64" width="160" height="158"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
@@ -164,7 +191,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iWa-dy-FlE" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="Lqg-f2-Yex"/>
             </objects>
-            <point key="canvasLocation" x="1067" y="896"/>
+            <point key="canvasLocation" x="1066.875" y="895.77464788732391"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pBX-8t-vLs">
